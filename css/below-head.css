@@ -1,0 +1,30 @@
+.container{
+    /* background-color: red; */
+}
+
+/* .inside-container{
+    padding: 20px 0px;
+    margin: 0px 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    letter-spacing: .05em;
+} */
+
+.sneaker{color:red;}
+.inside-container{
+    /* background-color: green; */
+    justify-content: center;
+    display: grid;
+    padding: 20px 0px;
+    grid-template-columns: repeat(9,auto);
+
+    font-size: 14px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    letter-spacing: .05em;
+    column-gap: 2%;
+}

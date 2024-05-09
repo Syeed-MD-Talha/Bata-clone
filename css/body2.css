@@ -1,0 +1,15 @@
+.body2{
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns:  277.5px 277.5px 277.5px 277.5px;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.Batabd{
+    grid-column: span 4;
+}
+
+.body2 img{
+    height: auto;
+    width: 100%;
+}

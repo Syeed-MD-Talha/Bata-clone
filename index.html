@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boycott Bata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/below-head.css">
+    <link rel="stylesheet" href="css/body1.css">
+    <link rel="stylesheet" href="css/body2.css">
+    <link rel="stylesheet" href="css/body3.css">
+    <link rel="stylesheet" href="css/body4.css">
+</head>
+<body>
+    <section id="content1"></section>
+    <section id="content2"></section>
+    <section id="content3"></section>
+    <section id="content4"></section>
+    <section id="content5"></section>
+    <section id="content6"></section>
+    <div>
+        ----------------------------
+    </div>
+
+   
+    <script>
+        fetch('htmls/head.html')
+           .then(response => response.text())
+           .then(data => {
+                document.getElementById('content1').innerHTML = data;
+            });
+        fetch('htmls/below-head.html')
+            .then(response => response.text())
+            .then(data => {
+                 document.getElementById('content2').innerHTML = data;
+             });
+
+        fetch('htmls/body1.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('content3').innerHTML = data;
+        });
+
+        fetch('htmls/body2.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('content4').innerHTML = data;
+        });
+        fetch('htmls/body3.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('content5').innerHTML = data;
+        });
+        fetch('htmls/body4.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('content6').innerHTML = data;
+        });
+    </script>
+        
+
+
+</body>
+</html>

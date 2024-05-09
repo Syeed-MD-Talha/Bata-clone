@@ -1,0 +1,12 @@
+.banner{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    min-height: 280px;
+
+}
+
+.banner img{
+    height: 100%;
+    width: 100%;
+}
